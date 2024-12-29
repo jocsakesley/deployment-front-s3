@@ -13,6 +13,9 @@ env:
 
 jobs:
   build-test-deploy:
+    defaults:
+      run:
+        working-directory: ./front-s3
     runs-on: ubuntu-latest
     
     steps:
