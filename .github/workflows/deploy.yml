@@ -8,7 +8,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  S3_BUCKET: group-front # Replace with your bucket name
+  S3_BUCKET: seu-bucket-name # Replace with your bucket name
   ## CLOUDFRONT_DISTRIBUTION_ID: your-distribution-id # Optional: If using CloudFront
 
 jobs:
