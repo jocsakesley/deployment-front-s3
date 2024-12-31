@@ -2,7 +2,7 @@ name: React S3 Deployment Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [ feature/* ]
   pull_request:
     branches: [ main ]
 
